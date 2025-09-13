@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ms_sham</title>
+  <meta name="google-site-verification" content="DB3FVZxi29j0u1ECHBxEMzG5Zuncvpw74xP-kw9MIL0" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header, h1, h2 {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    h1 {
+      color: #2e8b57;
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      color: #555;
+      font-size: 1.2rem;
+    }
+
+    p {
+      max-width: 800px;
+      margin: 10px auto;
+      padding: 0 15px;
+      font-size: 1rem;
+    }
+
+    img {
+      display: block;
+      margin: 15px auto;
+      border-radius: 10px;
+      box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+    }
+
+    figure {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 15px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+    }
+
+    figure figcaption {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    audio {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    /* Dropdown language menu */
+    .dropdown-container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      margin: 30px 0;
+    }
+
+    .dropdown-menu-label {
+      background: #2e8b57;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .dropdown-menu-label:hover {
+      background: #246b44;
+    }
+
+    .dropdown-menu-items {
+      position: absolute;
+      top: 120%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+      list-style: none;
+      padding: 10px 0;
+      margin: 0;
+      width: 220px;
+      display: none;
+      z-index: 10;
+    }
+
+    .dropdown-menu-items.show {
+      display: block;
+    }
+
+    .dropdown-menu-items li {
+      text-align: center;
+      padding: 8px 12px;
+    }
+
+    .dropdown-menu-items li a {
+      text-decoration: none;
+      color: #333;
+      font-size: 0.95rem;
+      display: block;
+      transition: background 0.3s ease;
+    }
+
+    .dropdown-menu-items li a:hover {
+      background: #f0f0f0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      background: #2e8b57;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>healthyeat.com</h1>
+  <h2>developer: mohamed sham A</h2>
+  <img width="200px" src="healthy image.jpg" alt="">
+  <p>it`s my first website for business app</p>
+  <p>"I am now Mahalakshmi tech campus college plz contact me Welcome to [healthyeat]! We're passionate about [higenic food funding with AI]. Here, you'll find [HEALTHY PRODUCTS]. Whether you're looking for [FOOD SUGGESTING AI] or [ABOUT DETAILS FOR FOOD PRODUCTS], we've got you covered. We're dedicated to [HIGENIC PEOPLE] and [CHILDREN] and strive to provide a [PRODUCT IS HELTHY OR UNHELTHY] experience for every visitor.</p>
+  
+  <p>FOR EXAMPLE</p>
+  <img width="400" src="milk bikis.jpeg" alt="">
+  <p><b>Benefits:</b> Milk biscuits can be a healthy and convenient snack option, particularly for children, as they can contribute to calcium, vitamin, and mineral intake. However, moderation and mindful selection are key to maximizing their benefits.</p>
+  <p><b>Non benefits:</b> Milk biscuits can have negative health effects, especially for babies and children. They are high in sugar and fat, lack essential nutrients, and may contribute to digestive issues and weight gain.</p>
+  <p><b>Overall view:</b> Milk biscuits can be a part of a healthy diet when chosen thoughtfully and consumed in moderation.</p>        
+
+  <p style="text-align:center; font-weight:bold;">AI VOICE</p>
+
+  <figure>
+    <figcaption>Listen to the benefits:</figcaption>
+    <audio controls src="benifits.mp3"></audio>
+    <a href="benifits.mp3"> Download audio </a>
+  </figure>
+
+  <figure>
+    <figcaption>Listen to the non benefits:</figcaption>
+    <audio controls src="unbenefits.mp3"></audio>
+    <a href="unbenefits.mp3"> Download audio </a>
+  </figure>
+
+  <figure>
+    <figcaption>Listen to the overall:</figcaption>
+    <audio controls src="over all.mp3"></audio>
+    <a href="over all.mp3"> Download audio </a>
+  </figure>
+
+  <div class="dropdown-container language-menu">
+    <button
+      id="header-language-menu"
+      type="button"
+      class="dropdown-menu-label"
+      aria-haspopup="true"
+      aria-owns="language-menu"
+      aria-label="Current language is English. Choose your preferred language.">
+      English
+      <span class="dropdown-arrow-down" aria-hidden="true">▼</span>
+    </button>
+    <ul
+      id="language-menu"
+      class="dropdown-menu-items right"
+      role="menu">
+      <li role="menuitem"><a href="#">Català</a></li>
+      <li role="menuitem"><a href="#">Deutsch</a></li>
+      <li role="menuitem"><a href="#">Español</a></li>
+      <li role="menuitem"><a href="#">Français</a></li>
+      <li role="menuitem"><a href="#">日本語</a></li>
+      <li role="menuitem"><a href="#">한국어</a></li>
+      <li role="menuitem"><a href="#">Português (Brasil)</a></li>
+      <li role="menuitem"><a href="#">Русский</a></li>
+      <li role="menuitem"><a href="#">Українська</a></li>
+      <li role="menuitem"><a href="#">中文 (简体)</a></li>
+      <li role="menuitem"><a href="#">தமிழ்</a></li>
+    </ul>
+  </div>
+
+  <footer>
+    © 2025 healthyeat.com | Designed by Mohamed Sham A
+  </footer>
+
+  <script>
+    // Toggle dropdown
+    const btn = document.getElementById("header-language-menu");
+    const menu = document.getElementById("language-menu");
+    btn.addEventListener("click", () => {
+      menu.classList.toggle("show");
+    });
+  </script>
+</body>
+</html>
